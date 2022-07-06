@@ -73,7 +73,7 @@ command + enter 로 나올 수 있다.
 # Image
 - 문자열 앞에 ! 붙이면 됨
 
-![photo-1561731216-c3a4d99437d5](markdown_rule.assets/photo-1561731216-c3a4d99437d5.jpg)
+![photo-1561731216-c3a4d99437d5](markdown_rule_1.assets/photo-1561731216-c3a4d99437d5.jpg)
 
 
 
