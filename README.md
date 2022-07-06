@@ -16,7 +16,7 @@
     git이란 무엇인지, CLI 명령어 종류, git을 통한 버전 관리 방법
 
 - D3
-  - [git_push,etc](./D3/D3_git_push,ignore,keep) : 
+  - [git_push,etc](./D3/D3_git_push,ignore,keep.md) : 
 
     원격저장소가 무엇인지, 버전을 어떻게 올리는지, gitkeep, gitignore에 대해서 배움
 
