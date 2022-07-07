@@ -116,7 +116,7 @@
 
     ​	unmodified : 커밋이 되었는데 수정되지 않은 상태.(committed과 동일한 듯)
 
-    ​	untrackted : 한번도 커밋한 적인 없는 상태
+    ​	untrackted : 한번도 커밋한 적인 없는 상태 (말 그대로 trackted된 적이 없음)
 
     
 
