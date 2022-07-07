@@ -21,7 +21,7 @@
     원격저장소가 무엇인지, 버전을 어떻게 올리는지, gitkeep, gitignore에 대해서 배움
 
 - D4
-  - [git_pull,clone,git_flow](./D4/git_flow,etc) :
+  - [git_pull,clone,git_flow](./D4/git_flow,etc.md) :
     
     pull과 clone은 어떻게 다른지, git flow란 무엇인지, 협업을 어떤 식으로 하는지 ...
     

@@ -7,7 +7,7 @@
 - pull은 커밋을 받아오는 것이고, clone은 저장소를 가져오는 것이다. 
     github에서 zip 파일을 통해 폴더를 가져왔다면 이후의 커밋을 깃을 통해 가져올 수 없다. 
     
-- ![image-20220707195912445](git_pull,clone,branch,etc.assets/image-20220707195912445.png)
+ ![image-20220707195912445](git_pull,clone,branch,etc.assets/image-20220707195912445.png)
 
 ## Git Flow
 
@@ -21,7 +21,7 @@
   | release branches (supporting) | 개발 완료 이후 QA/Test 등을 통해 얻어진 다음 배포 전 minor bug fix 등 반영 | 9.24a, 9.24b                                       |
   | Hot fixes(supporting)         | 긴급하게 반영 해야하는 bug fix. release branch는 다음 버전을 위한 것이라면, hotfix branch는 현재 버전을 위한 것. | 긴급 패치를 위한 작업                              |
 
-![스크린샷 2022-07-07 오후 5.50.00](git_pull,clone,branch,etc.assets/스크린샷 2022-07-07 오후 5.50.00.png)
+![스크린샷 2022-07-07 오후 5.50.00](git_pull,clone,branch,etc.assets/image-git_workflow.png)
 
 
 &emsp; 🐝 Git Flow는 일련의 작업 체계이다. 정해진 답이 있는게 아니고 각각의 환경에서 변형해서 활용하면 된다.<br> 
