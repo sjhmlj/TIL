@@ -7,6 +7,7 @@
 - pull은 커밋을 받아오는 것이고, clone은 저장소를 가져오는 것이다. 
     github에서 zip 파일을 통해 폴더를 가져왔다면 이후의 커밋을 깃을 통해 가져올 수 없다. 
     
+
  ![image-20220707195912445](git_pull,clone,branch,etc.assets/image-20220707195912445.png)
 
 ## Git Flow
@@ -63,7 +64,11 @@
     🐝 1,2번 모두 pull request를 수행해야 하는데, 차이점은 2번은 push를 자신의 레포를 통해야 한다는 것 같다.
   
     👀  feature branch가 원격저장소에서 merge를 할 수 있을까?
-           feature branch가 master의 이름으로 push를 하면 어떻게 될까?
+           feature branch가 master의 이름으로 push를 하면 어떻게 될까? 
+           <br>
+    💡 일반적으로 개발 실무에서는 master	브랜치에 직접적인 push를 할 수 없도록 설정한다. git의 branch protection rules 라는 기능은 기본적으로 admin 권한이 없는 협업자가 특정 브랜치에 대한 merge나 delete를 하지 못하게 막는다. 
+    [about protected branches](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/defining-the-mergeability-of-pull-requests/about-protected-branches)
+	
 	<br>
 ---
 
