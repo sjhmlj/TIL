@@ -1,28 +1,33 @@
 # saffy 내용 정리
 
-- D1_7.4_m
+- D1_1_7.4_m
 
-  - [OT](./D1_OT/OT.md)
+  - [OT](./D1_1/OT.md)
 
-- D2
-  - [markdown_rule](./D2_markdown/markdown_rule.md) :
+- D1_2
+  - [markdown_rule](./D2_1/markdown_rule.md) :
 
     마크다운 내의 문법을 정리
 
-  - [markdown 실습](./D2_markdown/markdown_practice_0705.md)
+  - [markdown 실습](./D2_1/markdown_practice_0705.md)
 
-  - [Git](./D2_markdown/Git.md)
+  - [Git](./D2_1/Git.md)
 
     git이란 무엇인지, CLI 명령어 종류, git을 통한 버전 관리 방법
 
-- D3
-  - [git_push,etc](./D3/D3_git_push,ignore,keep.md) : 
+- D1_3
+  - [git_push,etc](./D1_3/D3_git_push,ignore,keep.md) : 
 
     원격저장소가 무엇인지, 버전을 어떻게 올리는지, gitkeep, gitignore에 대해서 배움
 
-- D4
-  - [git_pull,clone,git_flow](./D4/git_flow,etc.md) :
+- D1_4
+  - [git_pull,clone,git_flow](./D1_4/git_flow,etc.md) :
     
     pull과 clone은 어떻게 다른지, git flow란 무엇인지, 협업을 어떤 식으로 하는지 ...
-    
+
+- D2_1
+
+  - [python 기초](./D2_1/python_1.md)
+
+    기초문법, 자료형, 컨테이너. 
 
