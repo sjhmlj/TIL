@@ -5,13 +5,13 @@
   - [OT](./D1_1/OT.md)
 
 - D1_2
-  - [markdown_rule](./D2_1/markdown_rule.md) :
+  - [markdown_rule](./D1_2/markdown_rule.md) :
 
     마크다운 내의 문법을 정리
 
-  - [markdown 실습](./D2_1/markdown_practice_0705.md)
+  - [markdown 실습](./D1_2/markdown_practice_0705.md)
 
-  - [Git](./D2_1/Git.md)
+  - [Git](./D1_2/Git.md)
 
     git이란 무엇인지, CLI 명령어 종류, git을 통한 버전 관리 방법
 
