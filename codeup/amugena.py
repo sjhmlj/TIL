@@ -1,6 +1,7 @@
-members = ['minsoo', 'yeonghui', 'cheolsoo']
+# enunerate 연습
+# members = ['minsoo', 'yeonghui', 'cheolsoo']
 
-for i in range(len(members)) :
-    print(f'{i} {members[i]}')
-for i, member in enumerate(members) :
-  print(i, member)
+# for i in range(len(members)) :
+#     print(f'{i} {members[i]}')
+# for i, member in enumerate(members) :
+#   print(i, member)

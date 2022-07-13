@@ -90,7 +90,7 @@
     members = ['minsoo', 'yeonghui', 'cheolsoo']
     
     for i in range(len(members)) :
-        print(f'{i} {memvers[i]}')
+        print(f'{i} {members[i]}')
     for i, member in enuberate(members) :
       print(i, member)
     ```

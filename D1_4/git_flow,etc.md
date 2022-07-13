@@ -2,11 +2,11 @@
 - 명령어
     ```bash
     $ git clone url 
-    $ git pull origin master
-
+    $ git pull origin master # 1. git fetch origin master + 2. git merge origin/master과 같다.
+    # 1번은 원격 저장소의 master를 로컬 저장소인 origin/master에 카피하는 것이고, 2번은 원격저장소와 로컬 저장소를 동기화하는 것이다. origin/master는 원격 저장소의 master 브랜치를 로컬에 카피한 브랜치다. 
+    
 - pull은 커밋을 받아오는 것이고, clone은 저장소를 가져오는 것이다. 
     github에서 zip 파일을 통해 폴더를 가져왔다면 이후의 커밋을 깃을 통해 가져올 수 없다. 
-    
 
  ![image-20220707195912445](git_pull,clone,branch,etc.assets/image-20220707195912445.png)
 

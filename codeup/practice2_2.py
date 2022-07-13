@@ -73,16 +73,28 @@
 # print(l)
 
 ###8번 두번째로 큰 수 구하기
-numbers = [0, 20, 100]
-l = numbers[0]
-for i in numbers :
-    if i >= l :
-        l = i
-numbers_2 = numbers
-while l in numbers_2 :
-    numbers_2.remove(l)  
-l_2 = numbers_2[0]
-for i in numbers :
-    if i >= l_2 :
-        l_2 = i
-print(l_2)
+# numbers = [0, 20, 100]
+# l = numbers[0]
+# for i in numbers :
+#     if i >= l :
+#         l = i
+# numbers_2 = numbers
+# while l in numbers_2 :
+#     numbers_2.remove(l)  
+# l_2 = numbers_2[0]
+# for i in numbers :
+#     if i >= l_2 :
+#         l_2 = i
+# print(l_2)
+### 강사님 풀이
+# numbers = []
+# max_number = numbers[0]
+# second_number = numbers[0]
+
+# for n in numbers :
+#     if max_number < n :
+#         second_number = max_number
+#         max_number = n
+#     elif second_number <n and n < max_number :
+#         second_number = n
+# print(second_number)
