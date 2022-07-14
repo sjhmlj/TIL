@@ -7,6 +7,8 @@
 - print(a, b, sep = ' : ') 
   ` a : b `
   
+  print 함수는 객체들을 str타입으로 형변환한 다음에 출력해준다. 
+  
 - a = int(input().split())
   
   ` TypeError: int() argument must be a string, a bytes-like object or a number, not 'list'`
@@ -49,6 +51,21 @@
 
 - ```python
   format(a, ".2f")  ## float a를 소수점 둘째자리까지 나타내는 것 같다. 
+  ```
+
+- ```python
+  for i in word :
+      
+      dic.update( i = cnt) ## 이렇게 안되는 이유는 update 안의 i가 스트링으로 인식되기 때문인 것 같다. 
+  ```
+
+- ```python
+  연산자 우선순위를 알고 코딩해. 
+  ```
+
+- ```python
+  for i in word :
+      cnt_i = 0           ## 이런 식으로 작동하지 않는다. 
   ```
 
 - 
