@@ -1,4 +1,4 @@
 a, b, c = map(int, input().split())
+d = a+ b+ c
 
-print(a+b+c)
-print( '%.2f' % (a+b+c)/3 )
+print( d, '%.2f' % float(d/3) )

@@ -6,12 +6,12 @@
 ### 조건문
 - 참/거짓을 판단할 수 있는 조건식과 함께 사용
 
-- expression에는 참/거짓에 대한 조건이 들어간다. 
+- expression에는 참/거짓에 대한 조건이 들어간다.  
   ```python
-  if <expression> :
+  if <expression> :    ## 참인 경우 들여쓰기 한 코드를 실행한다. 
     # space 4
   else :
-    # space 4
+    # space 4           # 만약 들여쓰기 부분에 아무것도 작성하고 싶지 않다면 pass 키워드를 작성해야 한다. 
   ```
   
 - 복수 조건문
@@ -39,7 +39,7 @@
       # code block
   ```
   
-- 조건 표현식
+- 조건 표현식 (= 삼항 연산자)
   <True인 경우 값> if <expression> else <false인 경우 값>
   
   ```python
@@ -95,9 +95,17 @@
       print(i, member)
     ```
   
-    
+  - for-else : for 문에서 else 문은 반복가능한 객체가 모두 반복된 다음에 실행된다. 
   
-    
+    ```python
+    for i in range(3) :
+       if i == 1 :
+          break                   ## 코드 안에서 break되면 iterable 객체가 모두 반복되지 않았기에 
+    else :                         ## else 문은 실행되지 않는다. 
+      print('종료되었습니다.')
+    ```
+  
+  
   
 - 반복문 제어
   - break : 반복문을 종료
