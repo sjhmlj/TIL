@@ -22,9 +22,7 @@
 
     파이썬의 기초문법, 자료형, 컨테이너./ codeup 문제를 풀면서 알게된 것들
 
-  - 2. [조건문, 반복문](./D2_2/python_2.md)
-
-    if, for, while
+  - 2. [조건문, 반복문](./D2_2/python_2.md) : if, for, while
 
   - 3. [함수](./D2_3/python_3.md) : 함수, map
 
@@ -43,3 +41,11 @@
   - 3. [클래스](./D3_3/python_oop2.md) : 클래스 속성, namespace, 클래스 메서드, 스태틱 메서드
   
   - 4. [파이썬 응용,심화](./D3_4/python+.md) : list comprehension, lambda, filter, 어노테이션, pip, 가상환경
+  - 5. [api](./D3_5/python_api.md) : api, rest api
+
+
+
+---
+
+[문제풀이]()
+

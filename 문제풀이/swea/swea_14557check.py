@@ -96,3 +96,10 @@ for test_case in range(1, T + 1) :
             # print(ip)
     result = 'no' if '0' in ip else 'yes'
     print(f'#{test_case} {result}')
+
+
+
+
+# for test_case in range(1, T +1):            #? 핵심이다. 이런 통찰력이 코드를 줄여주네
+#     a = 'yes' if input().count('1') % 2 == 1 else 'no'
+#     print(f'#{test_case} {a}')
