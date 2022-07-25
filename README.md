@@ -33,15 +33,20 @@
     프로젝트 실습
 
 - 3주차
-  
+
   - 1. [에러, 예외처리](./D3_1/error.md) : 디버깅, SyntaxError, Exception
-  
+
   - 2. [객체지향프로그래밍](./D3_2/python_oop.md) : 객체, 객체 지향 프로그래밍, 클래스와 인스턴스, 생성자 메서드, 소멸자 메서드
-  
+
   - 3. [클래스](./D3_3/python_oop2.md) : 클래스 속성, namespace, 클래스 메서드, 스태틱 메서드
-  
+
   - 4. [파이썬 응용,심화](./D3_4/python+.md) : list comprehension, lambda, filter, 어노테이션, pip, 가상환경
   - 5. [api](./D3_5/python_api.md) : api, rest api
+
+- 4주차
+
+  - 1. [그냥 인트로](./D4_1/howtopreparect.md) : 코딩테스트 준비하는 법
+
 
 
 
