@@ -84,7 +84,7 @@
 
     ```python
     class Person :
-        def __del__(Self) :
+        def __del__(self) :
             ###
     ```
 
