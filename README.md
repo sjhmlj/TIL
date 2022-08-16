@@ -2,7 +2,7 @@
 
 - 1주차
 
-  - 2. [markdown_rule](./D1_2/markdown_rule.md),   [markdown 실습](./D1_2/markdown_practice_0705.md) , [Git](./D1_2/Git.md) : 
+  - 2. [markdown_rule](./D1_2/markdown_rule.md),   [markdown 실습](./D1_2/markdown_practice_0705.md) , [Git](./D1_2/git_info.md) : 
 
     git이란 무엇인지, CLI 명령어 종류, git을 통한 버전 관리 방법
 
@@ -56,6 +56,20 @@
   - 1. [스택, 큐](./D5_1/스택,큐.md) : 스택을 사용하는 이유, 덱을 이용한 큐 구현
     1. [힙, 셋](./D5_2/heap,set.md) : 힙 사용 방법, 셋 연산자
     1. [2차원리스트](./D5_3/2차원리스트.md) : 행렬을 만들고, 사용하는 법. 
+    1. [구글링](./D5_4/복사,동적.md) : 얕은 복사-깊은 복사, 동적 언어, 제너레이터
+    1. [델타 탐색](./D5_5/델타이동,탐색.md) : 지뢰찾기 문제에 활용할 수 있는 델타 탐색
+- 6주차
+
+  - 1. [델타탐색](./D6_1/brutefouce,delta.md)
+    2. [그래프](./D6_2/그래프.md) : 그래프 종류, 행렬과 리스트로 표현하는 법
+    3. [DFS, BFS](./D6_3/dfs,bfs.md)
+    4. DFS 
+    5. 코딩테스트 준비
+
+- 7주차
+
+  - 1. [데이터베이스란](./D7_1/DB1.md)
+
 
 ---
 

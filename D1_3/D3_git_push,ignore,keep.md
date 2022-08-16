@@ -16,8 +16,8 @@
 
   1. Github에서 new repository(RR) 만들기.
 
-  2. 터미널에서 RR 정보를 추가  :   $ git remote add 'RR 이름 ex)origin' 'url'
-  	RR 정보를 삭제할 때는 $ git remote rm 'RR 이름'
+  2. 터미널에서 RR 정보를 추가  :    git remote add 'RR 이름 ex)origin' 'url'
+  	RR 정보를 삭제할 때는  git remote rm 'RR 이름'
 
   3. RR의 정보 확인  :   $ git remote -v      ![](D3_git_push.assets/스크린샷 2022-07-06 오후 4.40.25.png)
 
