@@ -46,7 +46,7 @@
 - SQLite Date Type
   - NULL
   - INTEGER
-    - 크기에 따라 0, 1, 2, 3, 4, 6 또는 8바이트에 저장된 부호 있는 정ㅇ수
+    - 크기에 따라 0, 1, 2, 3, 4, 6 또는 8바이트에 저장된 부호 있는 정수
   - REAL
     - 8바이트 부동 소수점 숫자로 저장된 부동 소수점 값
   - TEXT
@@ -155,6 +155,8 @@ CREATE TABLE students(
     
   - WHERE
     - 'specify the search condition for rows returned by the query'
+    - 비교 연산자 `=, >, >=, <, <=` 는 숫자 혹은 문자 값의 대/소, 동일 여부를 확인하는 연산자
+    - 논리 연산자 `AND, OR, NOT`
     
     ```sql
     SELECT COUNT(*) FROM healthcare WHERE smoking = 3 and is_drinking = 1;
