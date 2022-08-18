@@ -21,8 +21,8 @@ def dfs_mt(node1, node2) :
     for clap in range(1, top_mt+1) :
         stack = [[node1, node2, 1]]
         stack2 = []
-        if node2 == 3 :
-            print(visited)
+        # if node2 == 3 :
+        #     print(visited)
         while stack :
             # if len(stack) >= 2 :         # 스택2를 모조리 빼줘야 한다. 여기 조건이 그걸 충족하지 못하고 있다. 
 
@@ -69,7 +69,7 @@ def dfs_mt(node1, node2) :
                 while True :
                     if stack  :
                         if cnt > stack[-1][2] :
-                            print('STOP', stack[-1], stack2[-1])
+                            # print('STOP', stack[-1], stack2[-1])
                             y2, x2, cnt = stack2.pop()
                             visited[y2][x2] = 0
                         else :
@@ -82,13 +82,15 @@ def dfs_mt(node1, node2) :
                 
             else :
                 stack2.append([y, x, cnt])
-
+        while stack2 :
+            y2, x2, cnt2 = stack2.pop()
+            visited[y2][x2] = 0
             
 
-        if node2 == 3 :
-            # print(y, x, mt[y][x], cnt, clap)
+        # if node2 == 3 :
+        #     # print(y, x, mt[y][x], cnt, clap)
 
-            print(stack2)
+        #     print(stack2)
             # pprint(stack)
         if result < clap :
             return result

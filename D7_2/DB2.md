@@ -107,8 +107,26 @@
 #### SELECT 쿼리 진행 순서
 
 1. FROM - 전체 데이블의 결과를 가져옴
-2. WHERE - 조건에 맞는 결과만 갖도록 데이터를 간추림
+2. WHERE - 조건에 맞는 결과만 갖도록 데이터를 간추림. 집계함수를 사용할 ㅜㅅ 없다.
 3. GROUP BY
-4. HAVING
+4. HAVING - 집계함수를 가지고 조건비교를 할 때 사용한다. (GROUP BY 와 함께 사용된다.)
 5. SELECT
 6. ORDER BY
+
+
+
+#### 실습
+
+- 스키마에 int를 설정해도 텍스트가 들어갈 수 있었다. 밑에 보면 좋다 . SQLite 공식 사이트에서 가져왔다. 
+
+  ```text
+  Most SQL database engines (every SQL database engine other than SQLite, as far as we know) uses static, rigid typing. With static typing, the datatype of a value is determined by its container - the particular column in which the value is stored.
+  
+  SQLite uses a more general dynamic type system. In SQLite, the datatype of a value is associated with the value itself, not with its container. The dynamic type system of SQLite is backwards compatible with the more common static type systems of other database engines in the sense that SQL statements that work on statically typed databases work the same way in SQLite. However, the dynamic typing in SQLite allows it to do things which are not possible in traditional rigidly typed databases. Flexible typing is a feature of SQLite, not a bug.
+  ```
+
+- ```sql
+  DELETE FROM 테이블이름 WHERE 조건;
+  ```
+
+- 
