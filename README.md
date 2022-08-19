@@ -70,7 +70,9 @@
 
   - 1. [데이터베이스란](./D7_1/DB1.md) : 데이터베이스, SQLite 명령어
     2. [SQL 명령어](./D7_2/DB2.md) : 연산자 등
-    3. [SQL](./D7_3/DB3.md) : GROUP BY, 함수, 
+    3. [SQL](./D7_3/DB3.md) : GROUP BY, 함수, ALTER
+    4. [CASE, 서브쿼리](./D7_4/DB4.md)
+    5. [DBMS 작동방식](./D7_4/DBMS.md)
 
 
 ---

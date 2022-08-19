@@ -1,5 +1,3 @@
-
-
 ## 함수
 
 #### 문자열 함수
@@ -79,3 +77,8 @@ ALTER TABLE news ADD COLUMN subtitle TEXT NOT NULL DEFAULT '소제목';
 -- NOT NULL 로 설정하려는데, 기존의 레코드에 null 값이 있다면 에러가 뜨기 때문에 default를 정해준다. 
 ```
 
+---
+
+강의 자료
+
+[group by, having](http://wiki.gurubee.net/pages/viewpage.action?pageId=26743892) : 에 대한 자료. 좋음. 
