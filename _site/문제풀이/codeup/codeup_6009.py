@@ -1,0 +1,2 @@
+sex = input()
+print(sex)
