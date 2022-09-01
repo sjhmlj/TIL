@@ -1,0 +1,39 @@
+.card{
+  display:flex;
+  justify-content: center;
+}
+*{
+  box-sizing: border-box;
+}
+.img-p{
+  width:300px;
+  border-radius: 1rem;
+}
+.margin-2{
+  margin: 0.6rem;
+}
+.f-c-grey{
+  color:grey;
+}
+div{
+  margin:0.5rem;
+}
+.f-c-blue{
+  color: skyblue;
+  font-weight: bold;
+}
+h2{
+  margin: 0.5rem;
+}
+.margin-l{
+  margin-left:0.5rem;
+}
+.f-w-b{
+  font-weight: bold;
+}
+.item{
+  width:300px;
+}
+.f-s-13{
+  font-size:13px;
+}

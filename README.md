@@ -90,7 +90,16 @@
   - 1. [JOIN](./D8_1/DB5.md),[실습](./D8_1/DB5실습.md)
     1. [데이터 모델링](./D8_2/DB6.md), [PK, FK](./D8_2/PKFK.md)
     1. [Django ORM](./D8_3/DB7.md), [실습](./D8_3/DB7실습.md)
-    1. [QuerySet API](./D8_4/DB8.md), [실습]()(./D8_4/DB8실습.md)
+    1. [QuerySet API](./D8_4/DB8.md), [실습](./D8_4/DB8실습.md)
+  
+- 9주차
+
+  
+  - 1. [html기초](./D9_1/web1.md)
+    2. [CSS기본스타일, boxmodel, display](./D9_2/web2.md)
+    3. [position, flex](./D9_3/web3.md)
+    4. [시맨틱 태그](./D9_4/web4.md)
+  
 
 
 ---
