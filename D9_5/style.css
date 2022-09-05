@@ -1,0 +1,97 @@
+.navigationBar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0px;
+  height: 80px;
+  padding-left: 40px;
+  padding-right: 40px;
+  background-color: white;
+  width: 100%;
+}
+.logoimg{
+  height: 60px;
+}
+.navili{
+  list-style: none;
+  float: left;
+  padding: 10px;
+}
+.headerBox{
+  display: flex;
+  background-image: url(./images/background.jpg);
+  height: 320px;
+  justify-content: center;
+  align-items: center;
+}
+.asideBox{
+  width: 20%;
+  padding: 1rem;
+}
+.movieBox{
+  width:80%;
+}
+
+.asideAndmovie{
+  display: flex;
+}
+.movieimg{
+  width: 300px;
+}
+.jenres{
+  list-style: none;
+  margin: 0px;
+}
+.jenreul{
+  margin:0px;
+  padding-left: 0px;
+}
+.movies{
+  background-color: lightgray;
+  display: flex;
+  justify-content: space-around;
+
+}
+.mrb{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  background-color: lightgray;
+  padding-top: 1.5rem;
+  padding-bottom: 0.5rem;
+}
+.movieimg{
+  margin: 24px, 24px, 0, 24px;
+  border-radius: 10%;
+}
+.movierank{
+  text-align: center;
+  margin: 0px;
+}
+.movietitles{
+  display: flex;
+  justify-content: space-around;
+}
+.movietitles p{
+  width: 300px;
+  text-align: center;
+}
+
+.footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  position: fixed;
+  bottom: 0px;
+  height: 40px;
+  width: 100%;
+}
+.footer-p{
+  color: white;
+  margin-bottom: 0px;
+}
+body{
+  height: 2000px;
+}
