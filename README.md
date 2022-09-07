@@ -99,11 +99,14 @@
     2. [CSS기본스타일, boxmodel, display](./D9_2/web2.md)
     3. [position, flex](./D9_3/web3.md)
     4. [시맨틱 태그](./D9_4/web4.md)
+    5. [web 효율성](https://medium.com/myrealtrip-product/fe-website-perf-part1-6ae5b10e3433)
   
 - 10주차
 
   
   - 1. [html태그, bootstrap](./D10-1/web5.md): table, form
+    2. [bootstrap](./D10-2/bootstrap.md): modal, carousel, components
+    3. [grid](./D10-3/grid.md)
   
 
 
