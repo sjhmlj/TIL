@@ -1,8 +1,13 @@
 h1{
   font-size: 1rem;
-  color:blue
+  color:blue;
+  background-color: none;
+  
 }
 /* .my-5 { */
   /* margin-top: 1rem !important; */ 
   /* margin-bottom: 1rem !important; */
+/* } */
+.bg-bisque {
+  background-color: bisque;
 }

@@ -1,0 +1,40 @@
+.logo-size{
+  width:2.5rem;
+  height:2.5rem;
+}
+.card-img-size{
+  width:8rem;
+}
+.nav-heigth{
+  height: 5rem;
+}
+.height-auto{
+  height: 100%;
+  line-height: 100%;
+}
+.form-check-input:checked {
+  background-color: #ba2424;
+  border-color: #ba2424;
+}
+.form-check-input[type=checkbox]:indeterminate {
+  background-color: #ba2424;
+  border-color: #ba2424;
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3e%3cpath fill='none' stroke='%23fff' stroke-linecap='round' stroke-linejoin='round' stroke-width='3' d='M6 10h8'/%3e%3c/svg%3e");
+}
+.height-1rem{
+  height:1rem;
+}
+small, .small {
+  font-size: 0.875em;
+}
+.box{
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+}
+.width-9{
+  width:10rem;
+}
+.bg-bisque {
+  background-color: bisque;
+}
