@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>04_form</title>
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  <style>
+    .nav-logo-size{
+      width: 5rem;
+    }
+    .footer-size{
+      height: 5rem;
+    }
+    h2{
+        line-height: 3;
+    }
+    #myform fieldset{
+      display: inline-block; /* 하위 별점 이미지들이 있는 영역만 자리를 차지함.*/
+      border: 0; /* 필드셋 테두리 제거 */
+    }
+    #myform input[type=radio]{
+        display: none; /* 라디오박스 감춤 */
+    }
+    #myform label{
+      font-size: 3em; /* 이모지 크기 */
+      color: transparent; /* 기존 이모지 컬러 제거 */
+      text-shadow: 0 0 0 #f0f0f0; /* 새 이모지 색상 부여 */
+    }
+    #myform label:hover{
+      text-shadow: 0 0 0 #a00; /* 마우스 호버 */
+    }
+    #myform label:hover ~ label{
+        text-shadow: 0 0 0 #a00; /* 마우스 호버 뒤에오는 이모지들 */
+    }
+    #myform fieldset{
+      display: inline-block; /* 하위 별점 이미지들이 있는 영역만 자리를 차지함.*/
+      direction: rtl; /* 이모지 순서 반전 */
+      border: 0; /* 필드셋 테두리 제거 */
+    }
+    #myform fieldset legend{
+      text-align: left;
+    }
+    #myform input[type=radio]:checked ~ label{
+      text-shadow: 0 0 0 #a00; /* 마우스 클릭 체크 */
+    }
+  </style>
+</head>
+<body>
+  <!-- nav -->
+  <nav class="bg-dark">
+
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand nav-logo-size" href="01_nav_footer.html"><img src="images/logo.png" class="img-fluid"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="03_community.html">Community</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#exampleModal">Login</a>
+            </li>
+            <!-- modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <form>
+                      <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">Email address</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                      </div>
+                      <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label">Password</label>
+                        <input type="password" class="form-control" id="exampleInputPassword1">
+                      </div>
+                      <div class="mb-3 form-check">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                        <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                      </div>
+                    </form>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Submit</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </nav>
+  <div>
+    <h2 class="text-center">리뷰 작성하기</h2>
+    <div class="container">
+      <div class="row">
+        <div class="col-8">
+          <select class="form-select" aria-label="Default select example">
+            <option selected>영화 선택하기</option>
+            <option value="1">쇼생크 탈출</option>
+            <option value="2">죽은 시인의 사회</option>
+            <option value="3">다크나이트 라이즈</option>
+            <option value="4">그랜드 부다페스트 호텔</option>
+            <option value="5">her</option>
+            <option value="6">위대한 쇼맨</option>
+          </select>
+          <div class="mb-3 my-2">
+            <label for="exampleFormControlInput1" class="form-label">리뷰 제목</label>
+            <input type="text" class="form-control" id="exampleFormControlInput1">
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">리뷰 내용</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            <div class="mb-3">
+              <label for="formFileMultiple" class="form-label">포토 리뷰</label>
+              <input class="form-control" type="file" id="formFileMultiple" multiple>
+            </div>
+            <button type="submit" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal1">Submit</button>
+            <div class="modal" tabindex="-1" id="exampleModal1">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title">리뷰 제출</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <p>리뷰가 제출되었습니다.</p>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-primary"><a href="04_form.html" class="text-white text-decoration-none ">Confirm</a></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-4 d-flex justify-content-center align-items-center">
+          <form name="myform" id="myform" method="post" action="./save">
+            <fieldset>
+              <input type="radio" name="rating" value="5" id="rate1"><label for="rate1">★</label>
+              <input type="radio" name="rating" value="4" id="rate2"><label for="rate2">★</label>
+              <input type="radio" name="rating" value="3" id="rate3"><label for="rate3">★</label>
+              <input type="radio" name="rating" value="2" id="rate4"><label for="rate4">★</label>
+              <input type="radio" name="rating" value="1" id="rate5"><label for="rate5">★</label>
+            </fieldset>
+          </form>
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <p class="text-center my-4">Web-bootstrap PJT, by ___</p>
+
+
+  <footer class="text-bg-dark footer-size d-flex justify-content-center align-items-center fixed-bottom">
+    2022.09.14 서주현, 우상민
+  </footer>
+  
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+</body>
+</html>

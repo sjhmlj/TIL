@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>05_movie</title>
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  <style>
+    .nav-logo-size{
+      width: 5rem;
+    }
+    .footer-size{
+      height: 5rem;
+    }
+    h2{
+        line-height: 3;
+    }
+    .poster-size{
+      width: 15rem;
+    }
+    p{
+      margin-bottom: 0.5rem;
+    }
+    .flatform-card{
+      width: 10rem;
+      height: 3rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-weight: bold;
+      border: 1px ridge lightgrey;
+      margin-right: 1.5rem;
+      border-radius: 0.5rem;
+      box-shadow: 1px 1px 0 1px skyblue;
+    }
+    .bg-shawshank{
+      background-image: url("images/shawshank2.jpeg");
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    .icon-size{
+      width: 20px;
+    }
+    .w-8rem{
+      width:8rem;
+    }
+    .bl{ 
+      color:black;
+    }
+    .semi-movie{
+      width:15rem;
+    }
+    .b-b-solid{
+      border-bottom: 2px solid black;
+      padding-bottom: 20px;
+    }
+  </style>
+</head>
+<body>
+  <!-- nav -->
+  <nav class="bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand nav-logo-size" href="01_nav_footer.html"><img src="images/logo.png" class="img-fluid"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="03_community.html">Community</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#exampleModal">Login</a>
+            </li>
+            <!-- modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <form>
+                      <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">Email address</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                      </div>
+                      <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label">Password</label>
+                        <input type="password" class="form-control" id="exampleInputPassword1">
+                      </div>
+                      <div class="mb-3 form-check">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                        <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                      </div>
+                    </form>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Submit</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </nav>
+  <!-- header -->
+  <header>
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="4000">
+          <img src="images/shawshank6.jpeg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item" data-bs-interval="4000">
+          <img src="images/2.jpeg" class="d-block w-100" alt="...">
+        </div>
+        
+      </div>
+    </div>
+  </header>
+  <header class="container d-flex my-3">
+    <div class="poster-size">
+      <img src="images/movie1.jpg" class="rounded w-100" alt="">
+    </div>
+    <div class="mx-5">
+      <div>
+        <h2 style="line-height:1;">쇼생크 탈출</h2>
+        <p>The Shawshank Redemption, 1994</p>
+      </div>
+      <div class="d-flex py-3">
+        <div>
+          <p class="text-secondary">개봉</p>
+          <p class="text-secondary">재개봉</p>
+          <p class="text-secondary">장르</p>
+          <p class="text-secondary">국가</p>
+          <p class="text-secondary">등급</p>
+          <p class="text-secondary">러닝타임</p>
+        </div>
+        <div class="mx-3">
+          <p>1995.02.04</p>
+          <p>2016.02.24</p>
+          <p>드라마</p>
+          <p>미국</p>
+          <p>15세이상관람가</p>
+          <p>133분, 142분(재개봉)</p>
+        </div>
+        <div class="mx-3">
+          <p class="text-secondary">평점</p>
+          <p class="text-secondary">누적관객</p>
+          <p class="text-secondary">&nbsp;</p>
+          <p class="text-secondary">영화정보</p>
+        </div>
+        <div class="mx-3">
+          <p>★9.6</p>
+          <p>11,413명</p>
+          <p></p>
+          <p></p>
+        </div>
+      </div>
+      <div class="d-flex">
+        <div class="flatform-card"><img class="icon-size rounded"src="images/watcha.png">&nbsp;왓챠</div>
+        <div class="flatform-card"><img class="icon-size rounded"src="images/netflix.png">&nbsp;넷플릭스</div>
+        <div class="flatform-card"><img class="icon-size rounded"src="images/wavve.png">&nbsp;웨이브</div>
+      </div>
+    </div>
+    
+
+  </header>
+  <div class="container d-flex py-3 pb-0">
+    <div>
+      <ul class="nav">
+        <li class="nav-item">
+          <a class="nav-link bl" aria-current="page" href="05-1.html">주요정보
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link bl" href="05-2.html">출연/제작</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link  active fw-bolder b-b-solid bl" href="05-3.html">영상/포토</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link bl" href="05-4.html">평점</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="container">
+    <hr class="one my-0">
+  </div>
+  <div class="container d-flex my-3">
+    <h3>영상</h3>
+  </div>
+
+
+  <section class="container my-5">
+    <h2 style="line-height:1;">출연진</h2><hr>
+    <div class="d-flex flex-wrap">
+      <div class="d-flex">
+        
+        <div class="w-8rem mx-3 mb-3">
+          <img src="images/saved_resource" class="w-100 rounded" alt="...">
+          <p class="card-text mb-0 mt-2">프랭크 다라본트</p>
+          <p class="card-text text-muted ">감독</p>
+        </div>
+        <div class="w-8rem mx-3 mb-3">
+          <img src="images/saved_resource(1)" class="w-100 rounded" alt="...">
+          <p class="card-text mb-0 mt-2">팀 로빈스</p>
+          <p class="card-text text-muted ">주연</p>
+        </div>
+        
+        <div class="w-8rem mx-3 mb-3">
+          <img src="images/saved_resource(2)" class="w-100 rounded" alt="...">
+          <p class="card-text mb-0 mt-2">모건 프리먼</p>
+          <p class="card-text text-muted ">주연</p>
+        </div>
+      </div>
+      <div class="d-flex">
+
+        <div class="w-8rem mx-3 mb-3">
+          <img src="images/saved_resource(3)" class="w-100 rounded" alt="...">
+          <p class="card-text mb-0 mt-2">밥 건튼</p>
+          <p class="card-text text-muted ">출연</p>
+        </div>
+        
+        <div class="w-8rem mx-3 mb-3">
+          <img src="images/saved_resource(4)" class="w-100 rounded" alt="...">
+          <p class="card-text mb-0 mt-2">윌리엄 새들러</p>
+          <p class="card-text text-muted ">출연</p>
+        </div>
+        <div class="w-8rem mx-3 mb-3">
+          <img src="images/saved_resource(5)" class="w-100 rounded" alt="...">
+          <p class="card-text mb-0 mt-2">클랜시 브라운</p>
+          <p class="card-text text-muted ">출연</p>
+        </div>
+        <div class="w-8rem mx-3 mb-3">
+          <img src="images/saved_resource(6)" class="w-100 rounded" alt="...">
+          <p class="card-text mb-0 mt-2">길 벨로우스</p>
+          <p class="card-text text-muted ">출연</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="text-bg-dark">
+    <div class="container">
+
+      <h3 class="py-3">비슷한 영화</h3>
+      <div class="d-flex flex-wrap flex-lg-nowrap justify-content-around">
+        <div class="semi-movie px-3">
+          <img src="images/GMV_CG01_NU0000011517-Vertical_LogoY_w720_h1080_q75.jpg" class="w-100 rounded" alt="">
+          <p class="text-white px-2">레이</p>
+        </div>
+        <div class="semi-movie px-3">
+          <img src="images/GMV_CV01_KE0000011298-Vertical_LogoY_w720_h1080_q75.jpg" class="w-100 rounded" alt="">
+          <p  class="text-white px-2">라이드</p>
+        </div>
+        <div class="semi-movie px-3">
+          <img src="images/GMV_EN01_EN000000062-Vertical_LogoY_w720_h1080_q75.jpg" class="w-100 rounded" alt="">
+          <p  class="text-white px-2">위플래쉬</p>
+        </div>
+        <div class="semi-movie px-3">         
+          <img src="images/MV_C901_SG0000078840_w720_h1080_q75.jpg" class="w-100 rounded" alt="">
+          <p  class="text-white px-2">더 셰프</p>
+        </div>
+        <div class="semi-movie px-3">
+          <img src="images/MV_CT01_MBC000011556_w720_h1080_q75.jpg" class="w-100 rounded" alt="">
+          <p  class="text-white px-2">파운더</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer class="text-bg-dark footer-size d-flex justify-content-center align-items-center">
+    2022.09.14 서주현, 우상민
+  </footer>
+  
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+</body>
+</html>
