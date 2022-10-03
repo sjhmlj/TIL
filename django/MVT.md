@@ -1,0 +1,1 @@
+![7bedc18c-7f88-45b7-aad1-f71d52524de6](MVT.assets/7bedc18c-7f88-45b7-aad1-f71d52524de6.png)
