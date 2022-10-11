@@ -22,7 +22,17 @@ def index(request):
 ## render의 세번째 인자로 딕셔너리를 넣을 수 있다. 딕셔너리의 내용이 html에 전달된다. 
 ```
 
-- redirecting
+- redirect
+
+  ```python
+  from django.shortcuts import render, redirect
+  
+  def index(request):
+      
+      return redirect('article/index')
+  ```
+
+  
 
 
 

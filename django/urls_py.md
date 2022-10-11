@@ -1,5 +1,7 @@
 ## urls.py
 
+- url 요청은 http 요청이다. (path/메서드/헤더/프로토콜)
+
 ```python
 ## 기본
 from django.contrib import admin
